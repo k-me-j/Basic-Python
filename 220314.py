@@ -77,12 +77,4 @@ for i in range(len(vehicle_list)):
 print("변경 후 : ", ' '.join(vehicle_list))
 print()
 
-## 2. split 사용 ㄴㄴ
-'''
-' ' 나올때까지 컷?
-'''
-str_txt = "vehicle 0 0 50 50 vehicle 50 50 250 250"
-
-'''
-find로 
-'''
+## 2. split 사용 하지 않고 해보기?
