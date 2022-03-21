@@ -29,5 +29,6 @@ if __name__ == "__main__":
 
     # print(type(score()))
 
+    df_ai_engr(nameList).to_csv("D:/Kamie/mon_ML/f220321.csv")
 
 
