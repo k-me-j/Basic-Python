@@ -16,7 +16,8 @@ def df_ai_engr(nameList):
         ai_engr.loc[i, "English"] = score()
         # ai_engr["국어"] = score()
 
-    ai_engr = ai_engr[['Korean', 'Math', 'English']].astype(int)
+    ai_engr[['Korean', 'Math', 'English']] = ai_engr[['Korean', 'Math', 'English']].astype(int)
+    # int값을 넣어도 df 생성하면서 float으로 변환됨. 판다스 버그라고 함. 그래서 강제로 int로 형변환해주기
 
     return ai_engr
 
