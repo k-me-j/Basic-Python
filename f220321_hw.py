@@ -10,7 +10,7 @@ def df_ai_engr(nameList):
 
     for i in range(1, len_student):
         ai_engr.loc[i, "Name"] = nameList[i]
-        ai_engr.loc[i, "Id"] = f"2022_{2}"
+        ai_engr.loc[i, "Id"] = f"2022_{i}"
         ai_engr.loc[i, "Korean"] = score()
         ai_engr.loc[i, "Math"] = score()
         ai_engr.loc[i, "English"] = score()
