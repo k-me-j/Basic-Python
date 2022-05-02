@@ -44,3 +44,4 @@ if __name__ == "__main__":
     s = "  dasd   asda asd   "
     a = str_split(s)
     print(a)
+    
